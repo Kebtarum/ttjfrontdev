@@ -1,0 +1,33 @@
+
+
+@media (max-width: 850px){
+
+    .client-list__info-row {
+        flex-direction: column;
+        span {
+            margin-bottom: 5px;
+        }
+    }
+}
+
+
+@media (max-width: 620px){
+    .container{
+        flex-direction: column;
+    }
+    .form{
+        margin: 15px 0;
+        &__error{
+            font-size: 12px;
+            line-height: 16px;
+            color: $error-color;
+        }
+    }
+    
+
+    
+}
+
+@media (max-width: 375px){
+    
+}
